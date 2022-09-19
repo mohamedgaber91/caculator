@@ -175,10 +175,16 @@ button{
 /* media query */
 @media (max-width:500px) {
     .calculator{
-        left: 10%;
+        left: 5%;
     }
     .footer  p{
        line-height: 50px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .par{
+        padding: 15px;
     }
 }
 @media (min-width:501px) and (max-width:992px){
