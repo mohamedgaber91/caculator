@@ -3,7 +3,7 @@
 
 $(document).ready(() => {
  
-    $(".bar").css("bottom","94px")
+    $(".bar").css("bottom","100px")
   
   let buttons = $(".mybut");
   let screen = $(".screen");

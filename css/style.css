@@ -93,10 +93,10 @@ padding: 6px;
     bottom: 0;
     left: 0;
     color: black;
-    width: 89px;
+    width: 100px;
     cursor: pointer;
     transition: 0.7s;
-    height: 86px;
+    height: 100px;
     border-color: #c79e9e #c79e9e transparent #c79e9e;
 }
 .bar:hover{
@@ -175,7 +175,7 @@ button{
 /* media query */
 @media (max-width:500px) {
     .calculator{
-        left: 5%;
+        left: 3%;
     }
     .footer  p{
        line-height: 50px;
@@ -183,7 +183,7 @@ button{
     h1{
         font-size: 25px;
     }
-    .par{
+    .bar{
         padding: 15px;
     }
 }
