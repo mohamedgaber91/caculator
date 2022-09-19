@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #c79e9e;
+    min-height: 356px;
+}
+.content{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: #101048;
+    width: 334px;
+    margin-bottom: 287px;
+    border: 2px solid white;
+}
+.screen{
+    height: 87px;
+    background-color: white;
+    margin: 44px 10px 20px 10px;
+    border: 4px solid #837b24;
+    padding: 12px 71px 11px 29px;
+    color: #101048;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+
+}
+.buttons{
+    background-color: #f1f1eee3;
+    padding: 20px;
+    margin-top: 59px;
+}
+.but1,.but2,.but3,.but4{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+.mybut{
+    width: 73px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #a346dd;
+    transition: 0.3s;
+}
+.mybut:hover,button:hover{
+    background-color: white;
+    border: 2px solid #837b24;
+    cursor: pointer;
+    color: black;
+    transform: scale(1.2);
+}
+button{
+    width: 76px;
+    text-align: center;
+    height: 51px;
+    margin-left: 14px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: black;
+    border: 2px solid #a346dd;
+    transition: 0.3s;
+    font-size: 25px;
+    font-weight: bold;
+}
+
